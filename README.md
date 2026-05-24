@@ -13,7 +13,7 @@
 
 ## Descripción
 
-Portafolio web dinámico y autoadministrable desarrollado con tecnologías frontend y backend. Permite visualizar y gestionar información profesional mediante un sistema de administración con autenticación segura.
+Portafolio web dinámico y autoadministrable desarrollado con tecnologías frontend y backend. Permite visualizar y gestionar información mediante un sistema de administración con autenticación segura.
 
 ---
 

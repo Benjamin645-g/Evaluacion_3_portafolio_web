@@ -1,9 +1,9 @@
 CREATE DATABASE IF NOT EXISTS portafolio_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE portafolio_db;
 
--- ============================================
+
 -- TABLA: usuarios (login administrativo)
--- ============================================
+
 CREATE TABLE IF NOT EXISTS usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
@@ -17,9 +17,9 @@ INSERT INTO usuarios (username, password, email) VALUES
 ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uXkuPHb6K', 'benjaminmatiasps@gmail.com');
 -- Nota: password es 'password' hasheado. Cambiar en producción.
 
--- ============================================
+
 -- TABLA: biografia
--- ============================================
+
 CREATE TABLE IF NOT EXISTS biografia (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
@@ -37,9 +37,9 @@ INSERT INTO biografia (nombre, titulo, descripcion, email, ubicacion, disponibil
 'Estudiante apasionado por el desarrollo web, con experiencia en diseño y programación de sitios web modernos y responsivos. Especializado en crear soluciones digitales innovadoras utilizando las últimas tecnologías del mercado.',
 'benjaminmatiasps@gmail.com', 'Temuco, Chile', 'Disponible', 'assets/img/Foto.jpg');
 
--- ============================================
+
 -- TABLA: habilidades
--- ============================================
+
 CREATE TABLE IF NOT EXISTS habilidades (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
@@ -59,9 +59,9 @@ INSERT INTO habilidades (nombre, icono, color, orden) VALUES
 ('GitHub', 'bi-git', '#1a2332', 7),
 ('IA Aplicada', 'bi-cpu', '#1a9650', 8);
 
--- ============================================
+
 -- TABLA: tecnologias
--- ============================================
+
 CREATE TABLE IF NOT EXISTS tecnologias (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
@@ -81,9 +81,9 @@ INSERT INTO tecnologias (nombre, porcentaje, color, orden) VALUES
 ('Git/GitHub', 85, '#1a2332', 7),
 ('Diseño Responsive', 90, '#1a9650', 8);
 
--- ============================================
+
 -- TABLA: proyectos
--- ============================================
+
 CREATE TABLE IF NOT EXISTS proyectos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     titulo VARCHAR(150) NOT NULL,
@@ -103,9 +103,9 @@ INSERT INTO proyectos (titulo, descripcion, imagen, url_demo, url_github, tecnol
 ('Blog Personal', 'Blog con sistema de publicaciones, comentarios y gestión de usuarios. Diseño moderno y responsive.', 'assets/img/proyecto3.jpg', '#', '#', 'PHP,MySQL,CSS', 3),
 ('Dashboard Analítico', 'Panel de control con gráficos interactivos y visualización de datos en tiempo real.', 'assets/img/proyecto4.jpg', '#', '#', 'JavaScript,PHP,Chart.js', 4);
 
--- ============================================
+
 -- TABLA: contacto (mensajes recibidos)
--- ============================================
+
 CREATE TABLE IF NOT EXISTS contacto (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
