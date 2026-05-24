@@ -1,7 +1,4 @@
-/* ============================================
-   style.css - Portafolio Benjamin Pacheco
-   Paleta: Navy #1a2332 | Verde #1a9650
-============================================ */
+
 
 :root {
     --navy:   #1a2332;
@@ -28,9 +25,7 @@ body {
     line-height: 1.6;
 }
 
-/* ============================================
-   NAVBAR
-============================================ */
+/*  NAVBAR */
 .navbar {
     background: var(--navy) !important;
     padding: 0.9rem 0;
@@ -73,9 +68,7 @@ body {
 .navbar-toggler { border-color: rgba(255,255,255,0.3); }
 .navbar-toggler-icon { filter: invert(1); }
 
-/* ============================================
-   SECCIÓN BIOGRAFÍA
-============================================ */
+/* Sección Biografia */
 #biografia {
     background: var(--light);
     padding: 5rem 0 4rem;
@@ -145,9 +138,7 @@ body {
 }
 .bio-meta-item i { color: var(--green); font-size: 1rem; }
 
-/* ============================================
-   SECCIÓN HABILIDADES
-============================================ */
+/* Sección habilidades */
 #habilidades {
     background: var(--white);
     padding: 5rem 0;
@@ -197,9 +188,7 @@ body {
     color: var(--navy);
 }
 
-/* ============================================
-   SECCIÓN TECNOLOGÍAS
-============================================ */
+/* Seccion Tecnologias */
 #tecnologias {
     background: var(--light);
     padding: 5rem 0;
@@ -240,9 +229,7 @@ body {
 .progress-bar.green { background: var(--green); }
 .progress-bar.navy  { background: var(--navy); }
 
-/* ============================================
-   SECCIÓN PROYECTOS
-============================================ */
+/* Sección Proyectos */
 #proyectos {
     background: var(--white);
     padding: 5rem 0;
@@ -336,10 +323,7 @@ body {
     gap: 0.3rem;
 }
 .btn-repo:hover { background: var(--navy2); color: var(--white); }
-
-/* ============================================
-   SECCIÓN CONTACTO
-============================================ */
+/* Sección Contacto */
 #contacto {
     background: var(--light);
     padding: 5rem 0;
@@ -416,9 +400,7 @@ body {
     border: none;
 }
 
-/* ============================================
-   FOOTER
-============================================ */
+/* Footer */
 footer {
     background: var(--navy);
     color: rgba(255,255,255,0.7);
@@ -428,9 +410,7 @@ footer {
 }
 footer span { color: var(--green); }
 
-/* ============================================
-   LOGIN PAGE
-============================================ */
+/* Login Page */
 .login-page {
     min-height: 100vh;
     background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 100%);
@@ -476,9 +456,7 @@ footer span { color: var(--green); }
     margin-bottom: 1rem;
 }
 
-/* ============================================
-   DASHBOARD
-============================================ */
+/* Dashboard */
 .dashboard-wrapper { display: flex; min-height: 100vh; }
 .sidebar {
     width: 260px;
@@ -629,9 +607,7 @@ footer span { color: var(--green); }
 .modal-header { background: var(--navy); color: var(--white); border-radius: var(--radius) var(--radius) 0 0; }
 .modal-header .btn-close { filter: invert(1); }
 
-/* ============================================
-   ALERTS
-============================================ */
+/* Alertas */
 .alert-success-custom {
     background: #d4edda; border: 1px solid #c3e6cb;
     color: #155724; border-radius: 8px;
@@ -643,9 +619,7 @@ footer span { color: var(--green); }
     padding: 0.75rem 1rem; margin-bottom: 1rem; font-size: 0.92rem;
 }
 
-/* ============================================
-   RESPONSIVE
-============================================ */
+/* Responsive */
 @media (max-width: 991px) {
     .bio-card { flex-direction: column; text-align: center; padding: 2rem; }
     .bio-meta { justify-content: center; }

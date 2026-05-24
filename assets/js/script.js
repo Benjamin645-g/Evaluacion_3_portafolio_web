@@ -1,6 +1,3 @@
-// ============================================
-// assets/js/script.js - Portafolio Benjamin Pacheco
-// ============================================
 
 document.addEventListener('DOMContentLoaded', function () {
 

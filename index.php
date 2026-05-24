@@ -220,8 +220,7 @@ $proyectos   = getProyectos($pdo);
         </div>
     </div>
 </section>
-
-<!-- ==================== FOOTER ==================== -->
+<!-- ========== Footer =========-->
 <footer>
     <div class="container">
         <p>© <?= date('Y') ?> <span><?= htmlspecialchars($biografia['nombre']) ?></span> — Portafolio Web Profesional</p>
