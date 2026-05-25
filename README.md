@@ -29,6 +29,11 @@ Portafolio web dinámico y autoadministrable desarrollado con tecnologías front
 
 ---
 
+## Diseño en Figma
+El portafolio se desarrolló en base al siguiente wireframe/diseño:
+[Ver diseño en Figma](https://kilt-real-11993237.figma.site1)
+
+---
 ## Tecnologías Utilizadas
 
 | Tecnología | Uso |

@@ -17,12 +17,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($username) || empty($password)) {
         $error = 'Por favor completa todos los campos.';
     } else {
-        // Verificar contra la BD con password_verify (hash bcrypt)
+        // Verificar contra la BD con MD5
         $stmt = $pdo->prepare("SELECT * FROM usuarios WHERE username = ? LIMIT 1");
         $stmt->execute([$username]);
         $user = $stmt->fetch();
 
-        if ($user && password_verify($password, $user['password'])) {
+        if ($user && md5($password) === $user['password']) {
             $_SESSION['admin_logged_in'] = true;
             $_SESSION['admin_user']      = $user['username'];
             $_SESSION['admin_id']        = $user['id'];

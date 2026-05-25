@@ -193,8 +193,7 @@ $noLeidos = getMensajesNoLeidos($pdo);
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="../assets/js/script.js"></script>
 <script>
-// CORRECCIÓN: se leen los datos desde atributos data-* para evitar
-// el doble escape que causaba que el modal quedara en blanco.
+
 document.querySelectorAll('.btn-ver-msg').forEach(function(btn) {
     btn.addEventListener('click', function() {
         var d = this.dataset;
