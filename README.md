@@ -80,20 +80,7 @@ EVALUACION_3_PORTAFOLIO/
 
 ---
 
-## Instalación Local
 
-1. Clonar el repositorio
-2. Importar `bd.sql` en phpMyAdmin
-3. Configurar `includes/db.php` con tus credenciales:
-```php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'portafolio_db');
-```
-4. Abrir `http://localhost/evaluacion_3_portafolio_web/
-
----
 
 ## Credenciales de Acceso
 
