@@ -40,7 +40,7 @@ El portafolio se desarrolló en base al siguiente wireframe/diseño:
 |-----------|-----|
 | HTML5 | Estructura semántica |
 | CSS3 | Estilos personalizados |
-| Bootstrap 5.3 | Diseño responsive |
+| Bootstrap 5.3.8 | Diseño responsive |
 | JavaScript | Interactividad y AJAX |
 | PHP | Backend y lógica del servidor |
 | MySQL | Base de datos |
